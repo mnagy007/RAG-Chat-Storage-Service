@@ -67,7 +67,7 @@ Production-ready microservice to persist chat sessions/messages for a RAG chatbo
   "sender": "USER",
   "content": "Hi",
   "context": { "docId":"A1", "score":0.9 },
-  "metadata": { "model":"gpt-4o-mini", "latencyMs":420 }
+  "metadata": { "model":"v1_model", "latencyMs":420 }
 }
 ```
 
