@@ -32,7 +32,7 @@ Production-ready microservice to persist chat sessions/messages for a RAG chatbo
 - Health: `GET http://localhost:8080/actuator/health`  
 - pgAdmin: http://localhost:5050 (use env creds)
 
-> All API calls must include header `X-API-Key: <one of API_KEYS>`
+> All API calls must include header `X-API-Key: <one of API_KEYS>`(ex: rag-chat-token)
 
 ## REST API (v1)
 
