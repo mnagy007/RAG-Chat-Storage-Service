@@ -5,7 +5,7 @@ Production-ready microservice to persist chat sessions/messages for a RAG chatbo
 ## Features
 - Sessions CRUD: create, list (pagination, favorite filter), rename, favorite/unfavorite, soft delete
 - Messages: append + list (pagination), optional JSONB context/metadata
-- API Key auth (`X-API-Key`), rate-limiting (Bucket4j)
+- API Key auth (`X-API-Key`), rate-limiting
 - Global error handling, CORS, logs ready
 - Health checks (Actuator), Swagger/OpenAPI
 - Dockerized Postgres + pgAdmin + App
